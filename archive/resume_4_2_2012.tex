@@ -1,0 +1,178 @@
+% LaTeX resume using res.cls
+\documentclass[margin]{res}
+\setlength{\textwidth}{5.1in} % set width of text portion
+\addtolength{\textheight}{1in} %set height of text portion
+\addtolength{\topmargin}{-.4in}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+
+\begin{document}
+
+% Center the name over the entire width of resume:
+\moveleft0\hoffset\centerline{\hfill {\bf 813.404.3972}}
+\moveleft0\hoffset\centerline{\hfill {\bf frank.sposaro@gmail.com}}
+\moveleft0\hoffset\centerline{\hfill {\bf mobile.cs.fsu.edu}}
+\vspace{-.3in}\moveleft2.0\hoffset\centerline{\Huge {\bf Frank Sposaro}}
+% Draw a horizontal line the whole width of resume:
+
+\moveleft\hoffset\vbox{\hrule width\resumewidth height .5pt}
+
+% address begins here
+% Again, the address lines must be centered over entire width of resume:
+% \moveleft.5\hoffset\centerline{400 Hayden Road Suite 149 : Tallahassee, FL 32304}
+% \moveleft.5\hoffset\centerline{\small (813) 404-3972 : ww2.cs.fsu.edu/$\sim$sposaro}
+\begin{resume}
+\thispagestyle{empty}
+ 
+%\section{OBJECTIVE}  Highly self motivated grad student seeking summer position in mobile platforms
+
+\section{TECHNICAL \\ SKILLS} 
+
+\begin{tabular}{l l}
+
+{\sl Languages:} &
+%AJAX, 
+C, 
+C++, 
+C\#, 
+CSS, 
+HTML, 
+Java, 
+JavaScript, 
+Latex,
+NAnt,
+PHP, \\
+& 
+SQL, 
+VB.NET, 
+XML
+%MIPS Assembly
+\\{\sl Software:} &
+Adobe Suite,
+Bugzilla
+Drupal CMS,
+Eclipse IDE,\\
+&Gerrit Code Review,
+Git Version Control,
+Linux (Ubuntu) Server,\\
+&
+Microsoft Office Suite,
+Visual Studio,
+Wordpress
+\end{tabular}
+
+
+
+\section{EXPERIENCE} 
+
+%{\sl Electronic Arts Campus Rep} \hfill Fall 2004 - Present\\
+%Tri-Sqox Marketing, Redwood City, CA
+%\begin{itemize}  \itemsep -2pt %reduce space between items
+%\item Management, Promotions, Advertising, Marketing, Public Relations
+%\item Plan, Execute, Document Quarterly Event Calendars. 150+ events
+%\end{itemize}
+
+{\sl Research Programmer, Tech Lead} \hfill            2010 - Present\\
+FSU Computer Science Department, Tallahassee, FL
+\begin{itemize}  \itemsep -5pt %reduce space between items
+\item Prototyped medical monitoring framework using Android Platform
+\item Automatic fall detection and alert using triaxial accelerometers
+\item Automatic wandering detection and alert using GPS and contextual data
+\item Short and long term heart rate monitoring with bluetooth sensors
+\item Created, taught, admin production enviornment with Git, Gerrit, Bugzilla
+\item Created Wordpress site for The Mobile Lab at FSU and admin several users
+%\item Android system and framework research
+\end{itemize} 
+
+{\sl Software Engineering Intern} \hfill     2011 \\
+Android Engineering Department, Google, Mountain View, CA
+\begin{itemize} \itemsep -5pt
+\item Programmed UI for favorite contacts in the Phone and People Applications
+\item Experience coding for various screen sizes and resolutions 
+\item Documented and fixed various bugs for the release of Ice Cream Sandwich
+\item Performed and received code reviews within an agile team
+\end{itemize}
+
+{\sl Research Programmer} \hfill            2008 \\
+Traffic and Criminal Software, FSU College of Engineering, Tallahassee, FL
+\begin{itemize}  \itemsep -5pt %reduce space between items
+\item Prototyped state to agency law statute matching software using C\#
+\item Created GPS Library with Visual Studio 2008 using C\#
+\item Automated scripting for build environment using NAnt
+%\item Performed updates to WAMP server on Windows 2000
+\end{itemize} 
+
+{\sl Software Engineer II} \hfill        2007 \\
+ARINC, Oklahoma City, OK
+\begin{itemize} \itemsep -5pt %reduce space between items
+\item Simulated KC-135 MIL-STD-1553 aircraft data bus using Harris SecNet 11
+\item Data analysis on RS-232 hardware GPS system with XML and C++
+%\item Prototyped action item tracking system with ASP, AJAX, mySQL, and XML
+\item Designed multiresolution, event driven GUI interfaces in VB.NET and C\#
+\item Automated realtime tasks for aircraft pilots using Windows and Unix scripts
+\end{itemize} 
+ 
+
+
+\section{EDUCATION} Florida State University \hfill 2004-Present
+\begin{itemize} \itemsep -5pt
+\item Master of Computer Science \textit{2012}
+\item Bachelor of Computer Science \textit{2008}
+\end{itemize}
+                      % \sl will be bold italic in New Century Schoolbook (or
+	              % any postscript font) and just slanted in
+		      %	Computer Modern (default) font
+%Mobile Medical Monitoring and Android System Research
+
+\section{COLLEGIATE INSTRUCTOR} Mobile Programming: Android Application Development \hfill 2010 - 2011\\
+Assistant for several computer science courses \hfill 2007 - 2010
+
+ 
+ 
+\section {PUBLISHED PROJECTS}
+BEAT: Bio-Environmental Android Tracking \hfill Jan. 2011\\
+iWander: An Android Application for Dementia Patients \hfill Sept. 2010\\
+%32nd Conference Proceedings of the Engineering in Medicine and Biology Society
+iFall: A Cell-Phone Based Fall Detection and Warning System \hfill Apr. 2010\\
+%Journal of the American Geriatrics Society. Vol 58. Number 4.
+Indoor Tracking of Geriatric Patients Using Bluetooth \hfill Mar. 2010\\
+%First AMA-IEEE Medical Technology Conference on Individualized Healthcare.
+Geriatric Medical Application Suite on a Sweet Phone \hfill Mar. 2010\\
+%First AMA-IEEE Medical Technology Conference on Individualized Healthcare.
+iFall: An Android Application for Fall Monitoring and Response \hfill Sept. 2009
+%31st Conference Proceedings of the Engineering in Medicine and Biology Society
+
+
+
+%{\sl Teacher's Assistant}  \hfill Fall 2008 - Fall 2009\\
+%  C++ Programming: Intro to Intermediate. Windows Environment \\
+%  Computer Ethics: Moral Analysis and Debate about Technological Topics \\
+%  Computer Literacy: Focus on Microsoft Office Suite
+
+
+\section{AWARDS}
+1$^{st}$ place SHPE Mobile Application  Design Contest \hfill 2011\\
+2$^{nd}$ place Google Intern Project Fair \hfill 2011 \\
+ARINC Outstanding Employee of the Month (August) \hfill 2007 \\
+EA Sports Awards for Networking, Creativity, Overall Excelled Performance\\
+%President - {\it ACM}, Student Member - {\it IEEE, EMBS, AGS, TKE, FSU Swim Club}\\
+%Contracted several mobile applications for various companies\\
+
+%Android Market Devloper Name : \textit{FSU Mobile Solutions}
+%MadUglyClothing.com - {\it Owner \& Webmaster}
+%Insitute of Electrical and Electronics Engineers, {\it Student Member}
+%IEEE Engineering in Medicine and Biology Society, {\it Student Member}
+%American Geriatrics Society, {\it Student Member}
+%FSU Swim Club, {\it Member}
+
+%\textit{\small{\textbf{References and Portfolio Available Upon Request}}}
+
+
+\end{resume}
+\end{document}
+
+
+
+

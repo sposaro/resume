@@ -1,0 +1,17 @@
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.dvi
+*.ent
+*.tex~
+missfont.log
+
+# Not my documents
+/Steph/
+/Nicole/
+nicole_resume.*

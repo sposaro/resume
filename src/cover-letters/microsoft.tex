@@ -1,0 +1,60 @@
+% Cover letter using letter.cls
+\documentclass{letter} % Uses 10pt
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\usepackage{graphicx}
+% the following commands control the margins:
+\topmargin=-1in    % Make letterhead start about 1 inch from top of page 
+\textheight=8.5in    % text height can be bigger for a longer letter
+\oddsidemargin=0pt   % leftmargin is 1 inch
+\textwidth=6.5in     % textwidth of 6.5in leaves 1 inch for right margin
+
+\begin{document}
+
+\longindentation=0pt                       % needed to get closing flush left
+\let\raggedleft\raggedright                % needed to get date flush left
+
+\begin{letter}{Hulu \\
+1424 4th Ave \#615\\
+Seattle, WA, 98101}
+
+\begin{center}
+{\large\bf Dr. Frank Sposaro, PhD} 
+\end{center}
+\medskip\hrule height 1pt
+\begin{center}
+{
+(813) 404-3972 \\
+frank.sposaro@gmail.com\\
+mobile.cs.fsu.edu}
+%6525 139th PL NE Unit 37 \\    
+%Redmond, WA 98052}
+\end{center} \vfill % forces letterhead to top of page
+ 
+ 
+\opening{To the Hulu Team:} 
+ 
+\noindent I am interested in your Senior Software Development Lead - Mobile role and would love to learn about the opportunity.
+ 
+\noindent I am an engineer at heart. From childhood to this very day I always questioned the world around me.
+There was an internal drive to know how things worked, how they were built, and why they were built that way.
+Computer Science gave me the keys to build anything I dreamed of and I tried to take full advantage of it.
+With that momentum, I decided to accept the challenge to impact the world.
+At FSU I researched creating apps and devices to solve real medical problems. 
+That landed me at Microsoft where I've been building the largest digital distribution platform in the world with a special focus on style and accessibility.
+
+\textbf{Why Hulu?} I cut the cord several years ago and have been happily \textit{almost} Comcast free, still need an ISP. These years of consuming
+cable free media and relying on services like Netflix, YouTube, Microsoft Store, Kodi, etc.. have seen plenty of ups and down. I can relate
+to what people want from their streaming service, both professionally and personally. It would give me great joy to be the person that fixes this gap and Hulu feels like the perfect place to do that at.
+
+\textbf{Why Senior Software Development Lead - Mobile?} I hope you can see from my resume and past works that my passion screams MOBILE! From my PhD projects, to my entrepreneurship, to countless internships including Google and through my time at Microsoft mobile has always been the centerpoint. Along my journey I was always an influencer in anything I touched. In fact, I've been dubbed with the title as \textit{Tastemaker.} As my career has progressed I've lead cross team efforts through complex workflows, mentored new team members, taught college courses, managed team projects, iterated on our process and architected ground breaking new features. The manger position is one I've \textbf{always} seem to find myself in and I feel it's time to finally cement it as my professional experience already has me doing this. The professor in me enjoys helping others and I strive to give them the tools to enable themselves. I also have a knack for developing deep, lasting relationships with my colleagues. I would love to bring these tools and relationships to Hulu.
+ \\\\
+\closing{Sincerely yours,} 
+\vspace{-15mm}
+\fromsig{\includegraphics[scale=.7]{../signature.png}} \\
+\fromname{Frank Sposaro}
+
+\end{letter}
+ 
+
+\end{document}

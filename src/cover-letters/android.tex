@@ -1,0 +1,63 @@
+% Cover letter using letter.cls
+\documentclass{letter} % Uses 10pt
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+% the following commands control the margins:
+\topmargin=-1in    % Make letterhead start about 1 inch from top of page 
+\textheight=8.5in    % text height can be bigger for a longer letter
+\oddsidemargin=0pt   % leftmargin is 1 inch
+\textwidth=6.5in     % textwidth of 6.5in leaves 1 inch for right margin
+
+\begin{document}
+
+\signature{Frank Sposaro}
+\longindentation=0pt                       % needed to get closing flush left
+\let\raggedleft\raggedright                % needed to get date flush left
+ 
+ 
+\begin{letter}{The Android Team \\
+1600 Amphitheatre Parkway\\
+Mountain View, CA, 94043\\
+650.253.0000}
+
+\begin{center}
+{\large\bf Frank Sposaro} 
+\end{center}
+\medskip\hrule height 1pt
+\begin{center}
+{253 Love Building \\   
+Florida State University \\ 
+Tallahassee, FL 32306 \\ 
+(813) 404-3972 : frank.sposaro@gmail.com\\
+ww2.cs.fsu.edu/~sposaro}
+\end{center} \vfill % forces letterhead to top of page
+ 
+ 
+\opening{To the Android Team:} 
+ 
+\noindent I would like the opportunity to work with you this summer. 
+ 
+\noindent Currently I am a grad student in the Computer Science Department at Florida State University under Dr. Gary Tyson.
+I have been interested in mobile devices and bought a G1 as soon as I could. I fell in love with Android instantly.
+Wanting to share my passion with the rest of the students I developed a mobile programming course at FSU to teach others
+how to make Android applications. Since then, the course has been so popular that it is actually being adopted in our
+curriculum and asked to be taught every semester.
+
+My research has also been focused around using commerical Android powered devices for medical purposes. I have published
+several papers in this area; all of which have been well received by the community. Mainly the focus was on
+application development, but I have also compiled Android from source in order to make custom platforms.
+
+In my spare time I enjoying building applications for various companies, including our school newspaper,
+entering design contests in order to get my hands on a new tablet, and helping other students with their Android projects.
+I also have a strong interest in Google TV and have been impatiently waiting for the SDK to be released.
+
+Thank you for taking the time to learn more about me as I have spent my entire college career learning about Android.
+ 
+\closing{Sincerely yours,} 
+ 
+
+ 
+\end{letter}
+ 
+
+\end{document}
