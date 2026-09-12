@@ -1,8 +1,8 @@
-% LaTeX resume using res.cls
+% LaTeX resume using res.cls -- general-purpose primary resume
 \documentclass[margin]{res}
 \setlength{\textwidth}{5.6in}
-\addtolength{\textheight}{1.4in}
-\addtolength{\topmargin}{-.6in}
+\addtolength{\textheight}{1.1in}
+\addtolength{\topmargin}{-.55in}
 \usepackage[hidelinks]{hyperref}
 \usepackage{fancyhdr}
 \usepackage{graphicx}
@@ -10,6 +10,8 @@
 \setlist{nolistsep}
 \pagestyle{fancy}
 \renewcommand{\headrulewidth}{0pt} % <-- FIXES PAGE 2 LINE
+\fancyhf{}
+\fancyfoot[C]{\hspace*{-\hoffset}\makebox[\resumewidth][c]{\thepage}} % centers on full page width, not the narrower margin-shifted body
 
 \begin{document}
 
@@ -24,76 +26,76 @@
 % PROFILE
 % ======================
 \section{PROFILE}
-AI Enablement and Stragety leader with 20+ years across software engineering and cloud architecture. Specializing in helping organizations define AI vision, set stragety, establish governance models, define KPIs and ROI frameworks, and execute at scale.
-Proven track record translating executive priorities into sequenced roadmaps, measuring value, driving adoption, and leading culture shifts towards AI-native practices across complex, matrixed environments.
+AI Enablement and Strategy leader with 20+ years of progressive technology experience, including 6+ years leading and developing engineering and architecture teams — spanning hiring, performance feedback, career development, and cross-team portfolio direction across complex, matrixed organizations.
+Proven track record building AI value dashboards and ROI frameworks, reimagining SDLC and value-stream workflows around AI, and driving culture shifts toward AI-native, AI-fluent teams at enterprise scale.
+Skilled at influencing senior stakeholders and translating executive priorities into sequenced roadmaps with measurable outcomes.
 
 % ======================
 % EXPERIENCE
 % ======================
 \section{EXPERIENCE}
 
-{\sl Agentic Architect} \hfill 2025--2026\\
-Professional Services, Microsoft
+{\sl Principal Cloud Solution Architect, Application \& Innovation} \hfill 2020--2026\\
+Microsoft, Remote
+
+\textbf{Operating as Agentic AI Architect, Professional Services} \hfill 2025--2026\\
 \begin{itemize}
-\item Partnered with professional services and enterprise clients to align on AI vision and stragety, then translated that vision into multiphase roadmaps, governance models, and measureable operating models.
-\item Defined KPIs, ROI frameworks, and value-tracking approaches that connected AI initatives to business outcomes and accelerated cloud and AI delivery timelines by 30\%.
-\item Established enterprise AI governance (secure landing zones, agent intake, DLP guardrails, ALM) and drove execution through cross-functional alignment with engineering, product, and InfoSec.
-\item Led portfolio prioritization and risk management across concurrent AI workstreams while coaching teams on adoption patterns and sustainable operating rhythms.
+\item Lead multiple technical workstreams in partnership across Professional Services, setting AI vision and strategy with enterprise clients and translating it into multiphase roadmaps, operating models, and governance with clear owners and milestones.
+\item Serve as formal team lead for 3--5 engineers and architects, owning work allocation, prioritization, and career development planning.
+\item Participate in Microsoft hiring loops for engineering and architecture roles and deliver Connects feedback that directly informs team members' performance reviews.
+\item Own KPIs, ROI frameworks, and value-tracking approaches connecting AI initiatives to business outcomes, accelerating delivery timelines by 30\%, while establishing enterprise AI governance (secure landing zones, agent intake, DLP guardrails, ALM) across Engineering, Product, and InfoSec.
+\item Own portfolio view and risk management across concurrent AI workstreams, reimagining the AI delivery value stream -- from intake through governance to operations -- to reduce friction and accelerate safe adoption.
+\end{itemize}
+
+\textbf{Operating as Customer CTO AI Advisor, Strategic Accounts} \hfill 2023--2025\\
+\begin{itemize}
+\item Served as a de facto technical executive to enterprise customers -- partnering directly with customer CTOs and business leadership to align AI vision -- while directing Microsoft's sales and specialist teams to translate that vision into execution and report progress back to stakeholders.
+\item Defined enterprise AI strategy, governance, and operating models enabling scalable, compliant adoption of custom agents and Copilot capabilities across regulated environments.
+\item Automated data ingestion, migrations, and CI/CD pipelines using Azure Functions, cutting manual effort by 80\% and accelerating delivery by 40\%; designed optimized data models improving performance by 30\% and reducing decision latency by 25\%.
+\item Designed and deployed AI-enhanced applications using Python and Azure Cognitive Services, increasing processing accuracy by 25\%, and implemented AI-agent observability with Azure Monitor and Application Insights, reducing MTTR by 70\%.
+\end{itemize}
+
+\textbf{Operating as Power Platform Lead, Financial Services} \hfill 2020--2023\\
+\begin{itemize}
+\item Directly managed and grew a regional Power Platform architecture team of 4 architects and 2 specialists, partnering with Customer Success Account Managers to source and scope new engagements, and led enterprise digital transformation initiatives across multiple industries.
+\item Built conversational AI agents using Power Virtual Agents -- the direct predecessor of Microsoft Copilot Studio -- for HR, training, and customer self-service use cases, establishing hands-on AI agent experience years ahead of the platform's formal AI rebrand.
+\item Mentored architects and developers, fostering a community of practice around scalable low-code and AI solutions, and established ALM and governance standards adopted across multiple enterprise customers.
 \end{itemize}
 
 {\sl Azure Architect \& Cloud Migration Lead} \hfill 2025\\
-JM Family, Deerfield Beach
+Independent Consultant, JM Family, Deerfield Beach \emph{(via DrFrankDoes, LLC)}
 \begin{itemize}
-\item Owned end-to-end strategy and architecture for large-scale AI and Azure cloud migrations, aligning business owners and engineering on target-state platforms spanning compute, identity, data, and AI services.
-\item Facilitated executive and InfoSec alignment on architecture, governance, and data-protection standards prior to deployment.
-\item Produced detailed roadmaps, runbooks, and operational playbooks that enabled delivery teams to execute with clear ownership and measureable outcomes.
-\end{itemize}
-
-{\sl AI Platform \& Power/Copilot Studio Specialist} \hfill 2023--2025\\
-Northeast Region, Microsoft
-\begin{itemize}
-\item Defined enterprise AI and Power Platform stragety, governance, and operating models that enabeled scaleable, compliant adoption of custom agents and Copilot capabilities across regulated enviornments.
-\item Established KPIs and value measures for AI initiatives (productivity, delivery speed, accuracy, MTTR) and used them to prioritize use cases and demonstrate ROIs.
-\item Designed agent intake, approval, and ALM processes; coached customer teams on safe self-service patterns and drove measureable gains (80\% reduction in manual effort, 40\% faster delivery, 70\% lower MTTR).
-\item Partnered with business and technical leaders to shape platform direction, track adoption, and continuously refine the AI operating model based on real outcomes.
-\item Designed and deployed AI-enhanced applications using Python and Azure Cognitive Services improving processing accuracy by 25\%, and implemented observability with Azure Monitor and Application Insights.
+\item Directed multiple concurrent project teams -- each comprising a Project Manager, Solution Architect, Security Architect, Engineer(s), and Product Owner -- overseeing execution across parallel AI and cloud migration initiatives from discovery through InfoSec sign-off.
+\item Produced architecture diagrams, runbooks, and migration playbooks enabling delivery teams to execute cutovers with minimal disruption.
 \end{itemize}
 
 {\sl AI Platform \& Copilot Consultant} \hfill 2023\\
-JM Family, Deerfield Beach
+Independent Consultant, JM Family, Deerfield Beach \emph{(via DrFrankDoes, LLC)}
 \begin{itemize}
-\item Established Power Platform and Microsoft Copilot governance model spanning environment strategy, security group management, connector governance, and DEV/UAT/PROD lifecycle management.
-\item Provisioned governed tenant environments enabling AI engineers to build safely, while narrowing platform options for non-technical users to reduce shadow IT and platform risk.
-\item Designed intake and approval processes for custom Copilot agents, including requestor validation and controls redirecting M365 ``Create Agent'' traffic away from default environments.
-\item Partnered with InfoSec and business stakeholders on governance objectives, guardrails, and platform direction for Copilot and Power Platform adoption.
-\item Led client-facing strategy sessions translating business needs into architecture roadmaps, governance frameworks, and canary questions used as acceptance criteria.
-\item Mentored junior AI engineering resources on discovery, ambiguous problem framing, and translating business objectives into actionable engineering requirements.
+\item Established Power Platform and Copilot governance spanning environment strategy, security, and DEV/UAT/PROD lifecycle management; mentored junior AI engineers on discovery, ambiguous problem framing, and translating business objectives into actionable engineering requirements.
 \end{itemize}
 
-{\sl Power Platform Lead Architect} \hfill 2020--2023\\
-Northeast Region, Microsoft
+{\sl Senior Cloud Solution Architect, Apps \& Infra} \hfill 2018--2020\\
+Strategic Global Customer, Microsoft
 \begin{itemize}
-\item Led enterprise digital transformation initiatives, orchestrating business stakeholders, engineering teams, and platform strategy across multiple industries.
-\item Migrated legacy systems to governed data platforms with RBAC, security controls, and compliance frameworks.
-\item Architected and delivered enterprise applications supporting mission-critical operations.
-\item Built conversational AI agents to support HR, training, and customer self-service use cases.
-\item Established ALM and governance standards adopted across multiple enterprise customers.
+\item Architected cloud solutions aligned to business objectives, regulatory requirements, and long-term scalability, increasing recurring revenue by 10\% month-over-month; partnered with executive stakeholders to solidify business cases and prioritize transformation initiatives.
 \end{itemize}
 
-{\sl Cloud Solution Architect, Power Platform Developer} \hfill 2018--2020\\
-Strategic Accounts, Financial Services, Microsoft
-\begin{itemize}
-\item Architected cloud solutions aligned to business objectives, regulatory requirements, and long-term scalability for strategic enterprise customers.
-\item Increased recurring revenue by 10\% month-over-month following deployment of audit and compliance platforms.
-\item Partnered with executive stakeholders to solidify business cases and prioritize transformation initiatives.
-\item Unified enterprise data using Dataverse, Azure Data Factory, and dataflows to support analytics and automation.
-\end{itemize}
-
-{\sl Software Development Engineer} \hfill 2013--2018\\
+{\sl Software Development Engineer II} \hfill 2013--2018\\
 Xbox Store, Microsoft, Redmond, WA
 \begin{itemize}
-\item Developed Python-based telemetry pipelines and executive reporting systems enabling data-driven roadmap decisions.
-\item Delivered high-impact e-commerce features used by millions, with emphasis on scalability, performance, and accessibility.
+\item Delivered high-impact e-commerce features for a large-scale, consumer-facing storefront used by millions, with emphasis on scalability, performance, and accessibility.
+\item Developed Python-based telemetry pipelines and executive reporting systems enabling data-driven roadmap decisions, while mentoring junior engineers and promoting agile best practices across teams.
+\end{itemize}
+
+% ======================
+% CONSULTING
+% ======================
+\section{CONSULTING}
+{\sl Owner \& Principal Consultant} \hfill 2022--Present\\
+DrFrankDoes, LLC, Lakeland, FL
+\begin{itemize}
+\item Independent Power Platform and AI advisory practice (the engagement vehicle for the JM Family roles above), advising enterprise customers on environment strategy, governance, application architecture, and ALM/release discipline; released custom connectors integrating existing APIs with Power Platform solutions.
 \end{itemize}
 
 % ======================
@@ -138,7 +140,7 @@ Florida State University \hfill 2004--2015
 \section{COLLEGIATE INSTRUCTOR}
 {\sl Adjunct Faculty \& Course Founder}, Florida State University \hfill 2010--2025
 \begin{itemize}
-\item Graduate-level Low-Code Application Development; Mobile Programming (Android, Windows).
+\item Designed and taught graduate-level Low-Code Application Development and Mobile Programming, emphasizing developer fluency.
 \end{itemize}
 
 \end{resume}
